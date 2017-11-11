@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/** {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.wrapper {
+  flex: 1;
+}*/
+
+/* Start writing your CSS below here! ✨ */
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-image: url("https://media.giphy.com/media/GnrK9F01d1Kla/giphy.gif");
+  background-size: cover;
+  background-position: 25% 5%;
+  background-repeat: no-repeat;
+}
+.wrapper {
+ flex: 1;
+ text-align: center;
+ font-family: Raleway;
+ font-weight: lighter;
+ padding-right: 65px;
+ padding-top: 400px;
+ padding-bottom: 1px;
+ background-image: url("https://i.imgur.com/TXrQq4V.png");
+ background-size: 75%;
+ background-repeat: no-repeat;
+ border-radius: 15px;
+ background-position: bottom;
+ /*background-position: 1cm 2cm;*/
+ background-position: top 320px left 90px;
+
+ /*background-position: 25% 95%;*/
+
+/* <length> values */
+/*background-position: 0 0;
+/* Multiple images */
+/*background-position: 0 0, center;*/
+
+/* Edge offsets values */
+/*background-position: right 3em bottom 10px;
+background-position: bottom 10px right;
+background-position: top right 10px;*/
+
+}
